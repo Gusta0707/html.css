@@ -1,0 +1,10 @@
+emoji - U+1F5F8
+
+cores
+cinza claro - #CACACA
+cinza escuro - #878787
+cinza mais escuro - #202022
+ciano - #387373
+ciano escuro - #005A5B 
+
+Unknown property name

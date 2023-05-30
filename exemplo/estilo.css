@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(0, 0, 255, 0.089);
+}
+header{
+    background-color: aqua;
+}
+main{
+    background-color: bisque;
+}
+footer{
+    background-color: blueviolet;
+}

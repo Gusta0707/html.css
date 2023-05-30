@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+</head>
+<body>
+<h1>imagens dinamicas</h1>
+<p>tente abrir esse site em outros dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/imagenP.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/imagenM.png" type="image/png">
+    <img src="imagens/imagenG.png" alt="imagen flexivel">
+</picture> 
+<h1>Reproduzindo áudio</h1>
+<p>vamos aprender a reproduzir audios em HTML5</p>
+<!--MP3, WAV, OGG-->
+<audio preload="metadata" autoplay controls>
+    <source src="midia/sombriomp3.mp3" type="audio/mpeg">
+    <source src="midia/sombriomp3.ogg" type="audio/ogg">
+    <source src="midia/sombriomp3.wav" type="audio/wav">
+    <p>infelizmente seu navegador não é capaz de reproduzir audio clique <a href="midia/sombriomp3.mp3">aqui</a> para baixar o audio</p>
+</audio>
+<!--isso serve caso o navegador não seja capaz de reproduzir algum tipo de formato, como por exemplo:mp3.
+assim ele vai tentar o proximo-->
+
+</body>
+</html>
