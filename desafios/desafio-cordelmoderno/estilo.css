@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;    
+}
+
+header{
+    background-color: darkgray;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+a:hover{
+    background-color: rgba(240, 248, 255, 0.548);
+    text-decoration: underline;
+    border-radius: 3px;
+}
+footer{
+    background-color: darkgray;
+    padding: 10px;
+    text-align: center;
+}
